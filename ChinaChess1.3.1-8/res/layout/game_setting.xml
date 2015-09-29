@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Music setting -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/music_setting"
+        android:textColor="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/music_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/music_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music_on"
+            android:textColor="@color/white" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/music_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music_off"
+            android:textColor="@color/white" >
+        </RadioButton>
+    </RadioGroup>
+
+    <!-- game level setting -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/level_setting"
+        android:textColor="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/level_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/level_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_easy"
+            android:textColor="@color/white" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/level_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_normal"
+            android:textColor="@color/white" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/level_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_hard"
+            android:textColor="@color/white" >
+        </RadioButton>
+    </RadioGroup>
+
+</LinearLayout>
